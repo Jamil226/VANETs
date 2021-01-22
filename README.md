@@ -3,9 +3,10 @@ V2V and V2I Implementation using Rest APIs
 
 
 # Folder's Description
-# APIs-
+Here is the description of all folders in this repository.
+# APIs
 rest APIs using PHP 8
-# DB-
+# DB
 SQL Database File
-# Postman Collection-
+# Postman Collection
 Postman Collections to Test APIs Response 
