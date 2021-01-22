@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "00b9c997-568e-43b4-8412-b4f9eccc5a06",
+		"name": "Vanet",
+		"description": "Vehicular AdHoc Network",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Registeration",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/APIs/registeration.php?number=LHR%205869&email=test@test.com&password=testingpass%23$%^%23",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"APIs",
+						"registeration.php"
+					],
+					"query": [
+						{
+							"key": "number",
+							"value": "LHR%205869"
+						},
+						{
+							"key": "email",
+							"value": "test@test.com"
+						},
+						{
+							"key": "password",
+							"value": "testingpass%23$%^%23"
+						}
+					]
+				},
+				"description": "Registeration"
+			},
+			"response": []
+		},
+		{
+			"name": "Mutual Authentication VCA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/APIs/mutual-authentication-vca.php?vca=996684",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"APIs",
+						"mutual-authentication-vca.php"
+					],
+					"query": [
+						{
+							"key": "vca",
+							"value": "996684"
+						}
+					]
+				},
+				"description": "Mutual Authentication VCA"
+			},
+			"response": []
+		},
+		{
+			"name": "V2V Communication",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/APIs/v2i.php?&sender_id=1&content=I Need Help.&message_priority=1&message_status=1&latitude=89587.09&longitude=99857.01&location=89587.09 99857.01",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"APIs",
+						"v2i.php"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "sender_id",
+							"value": "1"
+						},
+						{
+							"key": "content",
+							"value": "I Need Help."
+						},
+						{
+							"key": "message_priority",
+							"value": "1"
+						},
+						{
+							"key": "message_status",
+							"value": "1"
+						},
+						{
+							"key": "latitude",
+							"value": "89587.09"
+						},
+						{
+							"key": "longitude",
+							"value": "99857.01"
+						},
+						{
+							"key": "location",
+							"value": "89587.09 99857.01"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "V2I Communication",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/APIs/v2i.php?&sender_id=1&content=I Need Help.&message_priority=1&message_status=1&latitude=89587.09&longitude=99857.01&location=89587.09 99857.01",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"APIs",
+						"v2i.php"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "sender_id",
+							"value": "1"
+						},
+						{
+							"key": "content",
+							"value": "I Need Help."
+						},
+						{
+							"key": "message_priority",
+							"value": "1"
+						},
+						{
+							"key": "message_status",
+							"value": "1"
+						},
+						{
+							"key": "latitude",
+							"value": "89587.09"
+						},
+						{
+							"key": "longitude",
+							"value": "99857.01"
+						},
+						{
+							"key": "location",
+							"value": "89587.09 99857.01"
+						}
+					]
+				},
+				"description": "V2I Communication"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
